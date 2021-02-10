@@ -1,1 +1,1 @@
-Get-Disk | Where partitionstyle -eq ‘raw’ 
+Get-Disk | Where-Object partitionstyle -eq ‘raw’ 

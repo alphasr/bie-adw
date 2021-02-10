@@ -1,7 +1,7 @@
   rem Task 2 part 1
   @ECHO off
 
-  rem setting arguments required to store in registry \HKEY_CURRENT_USER\Software\BI-ADW
+  rem setting arguments required to store in registry \HKEY_CURRENT_USER\Software\BIE-ADW
   set regKey=HKCU\Software\BIE-ADW
   set value=cv2-counter
   set type=REG_SZ
